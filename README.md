@@ -7,9 +7,9 @@ In this directory you will find a implementation of a AirBnB clone.
 In this first step is implemented the Console. Commands for create, update, destroy, show and manage diferent classes and attributes for the items that the app will be offer and for the users.
 
 ### The console ###
-* create your data model
-* manage (create, update, destroy, etc) objects via a console / command interpreter
-* store and persist objects to a file (JSON file)
+* Create your data model
+* Manage (create, update, destroy, etc) objects via a console / command interpreter
+* Store and persist objects to a file (JSON file)
 The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. This means: from your console code (the command interpreter itself) and from the front-end and RestAPI you will build later, you won’t have to pay attention (take care) of how your objects are stored.
 This abstraction will also allow you to change the type of storage easily without updating all of your codebase.
 The console will be a tool to validate this storage engine
@@ -126,7 +126,7 @@ Delete an instance
 ### Setup
 
 * You need Python interpreter.
-IMPORTANT: The project was created in UBUNTU 14.04.3 LTS and Python 3.4.3.
+IMPORTANT: The project was created in UBUNTU 20.04 LTS and Python 3.4.3.
 
 ---
 
